@@ -47,6 +47,7 @@ function App() {
         title:title
       }
       setTask([...tasks,newtask])
+      setTitle("")
     }
   }
   return (
